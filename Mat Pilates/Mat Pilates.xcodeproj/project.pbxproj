@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4292462ACAD1D500D355DA /* MatPilatesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4292452ACAD1D500D355DA /* MatPilatesDetailView.swift */; };
+		4E4292482ACADA4400D355DA /* MPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4292472ACADA4400D355DA /* MPButton.swift */; };
+		4E42924A2ACB0EBA00D355DA /* MatPilatesGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4292492ACB0EBA00D355DA /* MatPilatesGridViewModel.swift */; };
+		4E42924C2ACB384B00D355DA /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42924B2ACB384B00D355DA /* SafariView.swift */; };
+		4E42924E2ACB3D6500D355DA /* MatPilatesTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42924D2ACB3D6500D355DA /* MatPilatesTitleView.swift */; };
+		4E4292502ACB3E1F00D355DA /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42924F2ACB3E1F00D355DA /* XDismissButton.swift */; };
+		4E7FC89B2AC1E7D700AFE35C /* Mat_PilatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC89A2AC1E7D700AFE35C /* Mat_PilatesApp.swift */; };
+		4E7FC89F2AC1E7D800AFE35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7FC89E2AC1E7D800AFE35C /* Assets.xcassets */; };
+		4E7FC8A22AC1E7D800AFE35C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7FC8A12AC1E7D800AFE35C /* Preview Assets.xcassets */; };
+		4E7FC8AC2AC1E7D800AFE35C /* Mat_PilatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC8AB2AC1E7D800AFE35C /* Mat_PilatesTests.swift */; };
+		4E7FC8B62AC1E7D800AFE35C /* Mat_PilatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC8B52AC1E7D800AFE35C /* Mat_PilatesUITests.swift */; };
+		4E7FC8B82AC1E7D800AFE35C /* Mat_PilatesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC8B72AC1E7D800AFE35C /* Mat_PilatesUITestsLaunchTests.swift */; };
+		4E7FC8C52AC1F0E500AFE35C /* MatPilates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC8C42AC1F0E500AFE35C /* MatPilates.swift */; };
+		4E7FC8C72AC1F9A400AFE35C /* MatPilatesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7FC8C62AC1F9A400AFE35C /* MatPilatesGridView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E7FC8A82AC1E7D800AFE35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7FC88F2AC1E7D700AFE35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7FC8962AC1E7D700AFE35C;
+			remoteInfo = "Mat Pilates";
+		};
+		4E7FC8B22AC1E7D800AFE35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7FC88F2AC1E7D700AFE35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7FC8962AC1E7D700AFE35C;
+			remoteInfo = "Mat Pilates";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E4292452ACAD1D500D355DA /* MatPilatesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatPilatesDetailView.swift; sourceTree = "<group>"; };
+		4E4292472ACADA4400D355DA /* MPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPButton.swift; sourceTree = "<group>"; };
+		4E4292492ACB0EBA00D355DA /* MatPilatesGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatPilatesGridViewModel.swift; sourceTree = "<group>"; };
+		4E42924B2ACB384B00D355DA /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		4E42924D2ACB3D6500D355DA /* MatPilatesTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatPilatesTitleView.swift; sourceTree = "<group>"; };
+		4E42924F2ACB3E1F00D355DA /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		4E7FC8972AC1E7D700AFE35C /* Mat Pilates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mat Pilates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7FC89A2AC1E7D700AFE35C /* Mat_PilatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mat_PilatesApp.swift; sourceTree = "<group>"; };
+		4E7FC89E2AC1E7D800AFE35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7FC8A12AC1E7D800AFE35C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E7FC8A72AC1E7D800AFE35C /* Mat PilatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mat PilatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7FC8AB2AC1E7D800AFE35C /* Mat_PilatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mat_PilatesTests.swift; sourceTree = "<group>"; };
+		4E7FC8B12AC1E7D800AFE35C /* Mat PilatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mat PilatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7FC8B52AC1E7D800AFE35C /* Mat_PilatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mat_PilatesUITests.swift; sourceTree = "<group>"; };
+		4E7FC8B72AC1E7D800AFE35C /* Mat_PilatesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mat_PilatesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E7FC8C42AC1F0E500AFE35C /* MatPilates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatPilates.swift; sourceTree = "<group>"; };
+		4E7FC8C62AC1F9A400AFE35C /* MatPilatesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatPilatesGridView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7FC8942AC1E7D700AFE35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8A42AC1E7D800AFE35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8AE2AC1E7D800AFE35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4292512ACB3FAB00D355DA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4E4292522ACB3FC900D355DA /* MatPilatesGridView */,
+				4E4292532ACB3FEA00D355DA /* MatPilatesDetailView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4E4292522ACB3FC900D355DA /* MatPilatesGridView */ = {
+			isa = PBXGroup;
+			children = (
+				4E4292492ACB0EBA00D355DA /* MatPilatesGridViewModel.swift */,
+				4E7FC8C62AC1F9A400AFE35C /* MatPilatesGridView.swift */,
+			);
+			path = MatPilatesGridView;
+			sourceTree = "<group>";
+		};
+		4E4292532ACB3FEA00D355DA /* MatPilatesDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				4E4292452ACAD1D500D355DA /* MatPilatesDetailView.swift */,
+			);
+			path = MatPilatesDetailView;
+			sourceTree = "<group>";
+		};
+		4E4292542ACB402000D355DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8C42AC1F0E500AFE35C /* MatPilates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4292562ACB403D00D355DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E42924D2ACB3D6500D355DA /* MatPilatesTitleView.swift */,
+				4E4292572ACB404600D355DA /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E4292572ACB404600D355DA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4E4292472ACADA4400D355DA /* MPButton.swift */,
+				4E42924F2ACB3E1F00D355DA /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4E4292582ACB40B000D355DA /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				4E42924B2ACB384B00D355DA /* SafariView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		4E7FC88E2AC1E7D700AFE35C = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8992AC1E7D700AFE35C /* Mat Pilates */,
+				4E7FC8AA2AC1E7D800AFE35C /* Mat PilatesTests */,
+				4E7FC8B42AC1E7D800AFE35C /* Mat PilatesUITests */,
+				4E7FC8982AC1E7D700AFE35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7FC8982AC1E7D700AFE35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8972AC1E7D700AFE35C /* Mat Pilates.app */,
+				4E7FC8A72AC1E7D800AFE35C /* Mat PilatesTests.xctest */,
+				4E7FC8B12AC1E7D800AFE35C /* Mat PilatesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7FC8992AC1E7D700AFE35C /* Mat Pilates */ = {
+			isa = PBXGroup;
+			children = (
+				4E4292582ACB40B000D355DA /* UIKit Components */,
+				4E4292562ACB403D00D355DA /* Views */,
+				4E4292542ACB402000D355DA /* Model */,
+				4E4292512ACB3FAB00D355DA /* Screens */,
+				4E7FC89A2AC1E7D700AFE35C /* Mat_PilatesApp.swift */,
+				4E7FC89E2AC1E7D800AFE35C /* Assets.xcassets */,
+				4E7FC8A02AC1E7D800AFE35C /* Preview Content */,
+			);
+			path = "Mat Pilates";
+			sourceTree = "<group>";
+		};
+		4E7FC8A02AC1E7D800AFE35C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8A12AC1E7D800AFE35C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E7FC8AA2AC1E7D800AFE35C /* Mat PilatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8AB2AC1E7D800AFE35C /* Mat_PilatesTests.swift */,
+			);
+			path = "Mat PilatesTests";
+			sourceTree = "<group>";
+		};
+		4E7FC8B42AC1E7D800AFE35C /* Mat PilatesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7FC8B52AC1E7D800AFE35C /* Mat_PilatesUITests.swift */,
+				4E7FC8B72AC1E7D800AFE35C /* Mat_PilatesUITestsLaunchTests.swift */,
+			);
+			path = "Mat PilatesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7FC8962AC1E7D700AFE35C /* Mat Pilates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7FC8BB2AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat Pilates" */;
+			buildPhases = (
+				4E7FC8932AC1E7D700AFE35C /* Sources */,
+				4E7FC8942AC1E7D700AFE35C /* Frameworks */,
+				4E7FC8952AC1E7D700AFE35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mat Pilates";
+			productName = "Mat Pilates";
+			productReference = 4E7FC8972AC1E7D700AFE35C /* Mat Pilates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E7FC8A62AC1E7D800AFE35C /* Mat PilatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7FC8BE2AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat PilatesTests" */;
+			buildPhases = (
+				4E7FC8A32AC1E7D800AFE35C /* Sources */,
+				4E7FC8A42AC1E7D800AFE35C /* Frameworks */,
+				4E7FC8A52AC1E7D800AFE35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7FC8A92AC1E7D800AFE35C /* PBXTargetDependency */,
+			);
+			name = "Mat PilatesTests";
+			productName = "Mat PilatesTests";
+			productReference = 4E7FC8A72AC1E7D800AFE35C /* Mat PilatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E7FC8B02AC1E7D800AFE35C /* Mat PilatesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7FC8C12AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat PilatesUITests" */;
+			buildPhases = (
+				4E7FC8AD2AC1E7D800AFE35C /* Sources */,
+				4E7FC8AE2AC1E7D800AFE35C /* Frameworks */,
+				4E7FC8AF2AC1E7D800AFE35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7FC8B32AC1E7D800AFE35C /* PBXTargetDependency */,
+			);
+			name = "Mat PilatesUITests";
+			productName = "Mat PilatesUITests";
+			productReference = 4E7FC8B12AC1E7D800AFE35C /* Mat PilatesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7FC88F2AC1E7D700AFE35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4E7FC8962AC1E7D700AFE35C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					4E7FC8A62AC1E7D800AFE35C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4E7FC8962AC1E7D700AFE35C;
+					};
+					4E7FC8B02AC1E7D800AFE35C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 4E7FC8962AC1E7D700AFE35C;
+					};
+				};
+			};
+			buildConfigurationList = 4E7FC8922AC1E7D700AFE35C /* Build configuration list for PBXProject "Mat Pilates" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7FC88E2AC1E7D700AFE35C;
+			productRefGroup = 4E7FC8982AC1E7D700AFE35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7FC8962AC1E7D700AFE35C /* Mat Pilates */,
+				4E7FC8A62AC1E7D800AFE35C /* Mat PilatesTests */,
+				4E7FC8B02AC1E7D800AFE35C /* Mat PilatesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7FC8952AC1E7D700AFE35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7FC8A22AC1E7D800AFE35C /* Preview Assets.xcassets in Resources */,
+				4E7FC89F2AC1E7D800AFE35C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8A52AC1E7D800AFE35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8AF2AC1E7D800AFE35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7FC8932AC1E7D700AFE35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4292482ACADA4400D355DA /* MPButton.swift in Sources */,
+				4E7FC8C52AC1F0E500AFE35C /* MatPilates.swift in Sources */,
+				4E4292502ACB3E1F00D355DA /* XDismissButton.swift in Sources */,
+				4E42924A2ACB0EBA00D355DA /* MatPilatesGridViewModel.swift in Sources */,
+				4E7FC89B2AC1E7D700AFE35C /* Mat_PilatesApp.swift in Sources */,
+				4E7FC8C72AC1F9A400AFE35C /* MatPilatesGridView.swift in Sources */,
+				4E42924E2ACB3D6500D355DA /* MatPilatesTitleView.swift in Sources */,
+				4E4292462ACAD1D500D355DA /* MatPilatesDetailView.swift in Sources */,
+				4E42924C2ACB384B00D355DA /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8A32AC1E7D800AFE35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7FC8AC2AC1E7D800AFE35C /* Mat_PilatesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7FC8AD2AC1E7D800AFE35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7FC8B82AC1E7D800AFE35C /* Mat_PilatesUITestsLaunchTests.swift in Sources */,
+				4E7FC8B62AC1E7D800AFE35C /* Mat_PilatesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E7FC8A92AC1E7D800AFE35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7FC8962AC1E7D700AFE35C /* Mat Pilates */;
+			targetProxy = 4E7FC8A82AC1E7D800AFE35C /* PBXContainerItemProxy */;
+		};
+		4E7FC8B32AC1E7D800AFE35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7FC8962AC1E7D700AFE35C /* Mat Pilates */;
+			targetProxy = 4E7FC8B22AC1E7D800AFE35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E7FC8B92AC1E7D800AFE35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E7FC8BA2AC1E7D800AFE35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7FC8BC2AC1E7D800AFE35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mat Pilates/Preview Content\"";
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-Pilates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7FC8BD2AC1E7D800AFE35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mat Pilates/Preview Content\"";
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-Pilates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E7FC8BF2AC1E7D800AFE35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-PilatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mat Pilates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mat Pilates";
+			};
+			name = Debug;
+		};
+		4E7FC8C02AC1E7D800AFE35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-PilatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mat Pilates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mat Pilates";
+			};
+			name = Release;
+		};
+		4E7FC8C22AC1E7D800AFE35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-PilatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mat Pilates";
+			};
+			name = Debug;
+		};
+		4E7FC8C32AC1E7D800AFE35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 334ZV83J5X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patriciagdebiazi.SwiftUI-MatPilates.Mat-PilatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mat Pilates";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7FC8922AC1E7D700AFE35C /* Build configuration list for PBXProject "Mat Pilates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7FC8B92AC1E7D800AFE35C /* Debug */,
+				4E7FC8BA2AC1E7D800AFE35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7FC8BB2AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat Pilates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7FC8BC2AC1E7D800AFE35C /* Debug */,
+				4E7FC8BD2AC1E7D800AFE35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7FC8BE2AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat PilatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7FC8BF2AC1E7D800AFE35C /* Debug */,
+				4E7FC8C02AC1E7D800AFE35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7FC8C12AC1E7D800AFE35C /* Build configuration list for PBXNativeTarget "Mat PilatesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7FC8C22AC1E7D800AFE35C /* Debug */,
+				4E7FC8C32AC1E7D800AFE35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7FC88F2AC1E7D700AFE35C /* Project object */;
+}
